@@ -1,4 +1,4 @@
-# Solutions for Rosetta's programming tasks
+# Solutions for Rosetta's programming tasks in C 
 
 ## Completed
 
