@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wpedantic -Wextra -ggdb
 
 SDL_INCLUDE = -I../req/SDL2/include
-SDL_LINK = -L../req/SDL2/lib -lSDL2main -lSDL2 -lSDL2_image
+SDL_LINK = -L../req/SDL2/lib -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf
 
 CCFLAGS = $(CFLAGS) $(SDL_INCLUDE)
 LFLAGS = -lmingw32 -mwindows -mconsole $(SDL_LINK)
